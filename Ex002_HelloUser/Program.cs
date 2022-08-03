@@ -1,4 +1,4 @@
 ﻿Console.WriteLine("Please enter your name:");
-string userName = Console.ReadLine();
+string? userName = Console.ReadLine();
 
-Console.WriteLine($"Hello, {userName}");
+Console.WriteLine($"Hello, {userName ?? string.Empty}");
