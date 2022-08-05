@@ -1,13 +1,21 @@
-﻿Console.Clear();
-// Console.SetCursorPosition(10, 4);
-// Console.WriteLine("+");
+﻿Console.CursorVisible = false;
+Console.Clear();
 
-int xa = 40;
+// int xa = 40;
+// int ya = 1;
+// int xb = 1;
+// int yb = 30;
+// int xc = 80;
+// int yc = 30;
+
+int xa = Console.BufferWidth / 2 - 1;
 int ya = 1;
+
 int xb = 1;
-int yb = 30;
-int xc = 80;
-int yc = 30;
+int yb = Console.BufferHeight - 2;
+
+int xc = Console.BufferWidth - 2;
+int yc = Console.BufferHeight - 2;
 
 Console.SetCursorPosition(xa, ya);
 Console.WriteLine("+");
@@ -18,8 +26,6 @@ Console.WriteLine("+");
 Console.SetCursorPosition(xc, yc);
 Console.WriteLine("+");
 
-Console.CursorVisible = false;
-
 int x = xa;
 int y = yb;
 
@@ -27,7 +33,7 @@ int count = 0;
 
 Thread.Sleep(5000);
 
-while (count < 3000)
+while (count < 5000)
 {
 	int what = new Random().Next(0, 3);
 	if (what == 0)
@@ -50,8 +56,8 @@ while (count < 3000)
 
 	Console.ForegroundColor = GetColorByCoord(x + y, xc + yc);
 	Console.SetCursorPosition(x, y);
-	Console.WriteLine("*");
-	Thread.Sleep(5);
+	Console.WriteLine("■");
+	Thread.Sleep(3);
 	++count;
 }
 
