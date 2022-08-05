@@ -1,6 +1,6 @@
 # GB: Intoduction to programming
 ## Ex007_Magic &mdash; example of work
 
-https://github.com/alexeycoder/learn-dotnet/blob/db3c997456238b8461fe502bc20a41a040dcb5a1/Ex007_Magic/images/example-of-work.webm
+[example-of-work.webm](https://user-images.githubusercontent.com/109767480/183068989-1184d2a3-27f8-4535-b129-e661753913e5.webm)
 
-https://github.com/alexeycoder/learn-dotnet/blob/a89d165143c7092aa2a6ad7e8e4989d13d5c4ae6/Ex007_Magic/images/example-of-work.mp4
+https://user-images.githubusercontent.com/109767480/183069023-a0c4c84b-3855-46e2-95c2-1001710bff3e.mp4
